@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #242b2e;
+            display: flex;
+            justify-content: center;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                "Lucida Sans", Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff6666;
+        }
+
+        .multi-columns {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .column {
+            width: 30%;
+            background-color: #fff;
+            border: 3px solid black;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .column>.heading {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+
+        .column>img {
+            width: 150px;
+        }
+
+        .content {
+            padding: 0px 20px;
+        }
+
+        .column-1 {
+            background-color: #35bdd0;
+            color: #111010;
+        }
+
+        .column-2 {
+            background-color: #e03b8b;
+            color: #111010;
+        }
+
+        .column-3 {
+            background-color: #5a20cb;
+            color: #111010;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Full stack Web Development</h1>
+        <section class="multi-columns">
+            <div class="column column-1">
+                <p class="heading">HTML</p>
+                <img src="./media/ass5/p1.webp" alt="HTML Logo">
+                <p class="content">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque ipsam quod deleniti doloribus ex, beatae provident autem iure quia ab perferendis omnis
+                    reprehenderit consequatur rem ut harum
+                    ad quae consequuntur explicabo natus laboriosam atque maxime id culpa. Consectetur nam fugit
+                    consequatur vero, illo amet vitae reiciendis vel veritatis quaerat. Nihil.
+                </p>
+            </div>
+            <div class="column column-2">
+                <p class="heading">CSS</p>
+                <img src="./media/ass5/p2.webp" alt="CSS Logo">
+                <p class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Qui praesentium impedit dolore, reprehenderit tenetur maiores! Laboriosam
+                    inventore nemo dolores ipsa. Eveniet odio, amet porro accusantium facere placeat consequatur!
+                    Eos, cum fuga optio magnam esse ipsum reiciendis? Laborum iste a rerum perspiciatis cupiditate
+                    beatae,
+                    nemo dolor ipsa error laudantium? Veritatis laudantium dicta sed accusamus molestias nobis. Atque,
+                    repellendus optio.
+                    Reiciendis voluptatem tenetur aperiam nesciunt nihil, saepe ut consequuntur. Porro quibusdam
+                    officiis, cupiditate aut impedit praesentium.
+                    Voluptate consequuntur a repellendus porro explicabo eos delectus ut voluptatem nihil ad vel,
+                    aspernatur quis, officia, earum tempora inventore nemo quos?
+                    Iusto nulla provident nihil autem?
+                </p>
+            </div>
+            <div class="column column-3">
+                <p class="heading">JavaScript</p>
+                <img src="./media/ass5/p3.png" alt="Javascript Logo">
+                <p class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Culpa reprehenderit ratione accusantium ipsa in magni quisquam quas nostrum corrupti. Perferendis.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam iste eos voluptatem
+                    necessitatibus,
+                    velit ad modi maiores minus! Incidunt, vel.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
