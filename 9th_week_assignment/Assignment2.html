@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            
+        }
+        .container{
+            height: 550px;
+            width: 450px;
+            border: 1px solid black;
+            background-color: #fff;
+            border-radius: 5px;
+
+        }
+        h1{
+            text-align: center;
+            margin-top: px;
+        }
+        .form{
+            margin-left: 10px;
+        }
+        .form label{
+            display: block;
+            margin: 4px;
+            margin: 5px;
+            font-size: large;
+        }
+        .form input{
+            width: 92%;
+            padding: 10px;
+            margin: 4px;
+            border: 1px solid black;
+        }
+        .form select{
+
+        }
+        #select-from{
+            width: 92%;
+            padding: 8px;
+            border: 1px solid black;
+            border-radius: 2px;
+            margin-left: 4px;
+        }
+        
+        #submit{
+            background-color: black;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 4px;
+        }
+        #submit:hover{
+            background-color: #fff;
+            color: black;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form>
+            <div class="form">
+                <label>Name</label>
+                <input type="text" required>
+            </div>
+            <div class="form">
+                <label for="">Batch</label>
+                <select name="batch" id="select-from">
+                    <option value="Sigma">Sigma 1.0</option>
+                    <option value="Sigma">Sigma 2.0</option>
+                </select>
+            </div>
+            <div class="form">
+                <label>Age</label>
+                <input type="text" required>
+            </div>
+            <div class="form">
+                <label>Email</label>
+                <input type="text" required>
+            </div>
+            <div class="form">
+                <label>Password</label>
+                <input type="text" required>
+            </div>
+            <div class="form">
+                
+                <input Id="submit" value="SignUp">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
