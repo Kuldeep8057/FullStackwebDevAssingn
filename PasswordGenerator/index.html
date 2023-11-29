@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+    <div id="box">
+        <h1>Password Generator</h1>
+        <!-- <input class="field" type="text" name="" 
+        placeholder="click to generate button" id="pass-box" readonly> -->
+        <span id="pass-box"></span>
+      <div class="row">
+        <button id="btn" onclick="generateRandomPass()">Generate Password</button>
+        <button id="btn" onclick="copyToClipboard()">copy to clipboard</button>
+      </div>
+      <div class="row">
+        <div class="left">Password Length</div>
+        <div class="right">
+          <input type="number" id="total-char" max="30" min="8" value="8" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="left">Numbers (0-9)</div>
+        <div class="right">
+          <input type="checkbox" name="" id="number" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="upper-case">
+          <div class="left">Uppercase (A-Z)</div>
+        </label>
+        <div class="right">
+          <input type="checkbox" name="" id="upper-case" checked />
+        </div>
+      </div>
+      <div class="row">
+        <label for="lower-case">
+          <div class="left">Lowercase (a-z)</div>
+        </label>
+        <div class="right">
+          <input type="checkbox" name="" id="lower-case" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="symbols">
+          <div class="left">Symbols (!*&%$#)</div>
+        </label>
+        <div class="right">
+          <input type="checkbox" name="" id="symbols" />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+<script src="javaScript.js"></script>
+
+</html>
+
+
+
+<!-- <div id="main">
+    <div id="box">
+      <span id="pass-box">Testing</span>
+      <div class="row">
+        <div class="left">Password Length</div>
+        <div class="right">
+          <input type="number" id="total-char" max="30" min="7" value="7" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="left">Numbers (0-9)</div>
+        <div class="right">
+          <input type="checkbox" name="" id="num" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="upper-case">
+          <div class="left">Uppercase (A-Z)</div>
+        </label>
+        <div class="right">
+          <input type="checkbox" name="" id="upper-case" checked />
+        </div>
+      </div>
+      <div class="row">
+        <label for="lower-case">
+          <div class="left">Lowercase (a-z)</div>
+        </label>
+        <div class="right">
+          <input type="checkbox" name="" id="lower-case" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="symbols">
+          <div class="left">Symbols (!*&%$#)</div>
+        </label>
+        <div class="right">
+          <input type="checkbox" name="" id="symbols" />
+        </div>
+      </div>
+      <div class="row">
+        <button id="btn">Generate Password</button>
+      </div>
+    </div>
+  </div> -->
