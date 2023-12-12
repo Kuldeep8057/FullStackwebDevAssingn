@@ -1,0 +1,35 @@
+3. What is DBMS? What was the need for DBMS?
+
+DBMS (Database Management System):
+A Database Management System (DBMS) is a software application that provides an interface to interact with databases, managing the creation, retrieval, updating, and deletion of data. It acts as an intermediary between the users and the database, ensuring efficient and secure management of data.
+
+Need for DBMS:
+The evolution of DBMS was driven by various challenges and shortcomings associated with traditional file-based systems. The key needs that prompted the development and adoption of DBMS include:
+
+Data Redundancy and Inconsistency:
+Challenge: In file-based systems, the same data might be duplicated across multiple files, leading to redundancy. Updates in one file may not be reflected in others, causing inconsistencies.
+Need for DBMS: To eliminate or minimize redundancy and ensure data consistency through centralized control.
+
+Data Isolation:
+Challenge: Data in file systems is often isolated, making it difficult to share and access information across different applications.
+Need for DBMS: To provide a centralized repository that allows multiple applications to share and access data, promoting data integration and collaboration.
+
+Data Integrity:
+Challenge: File systems lack mechanisms to enforce data integrity constraints, leading to data quality issues.
+Need for DBMS: To enforce integrity constraints, such as primary keys, foreign keys, and other rules, ensuring the accuracy and reliability of data.
+
+Data Security:
+Challenge: File systems typically lack robust security features, making it challenging to control access to sensitive data.
+Need for DBMS: To implement access controls, authentication, and authorization mechanisms to protect data from unauthorized access and manipulation.
+
+Concurrent Access and Transaction Management:
+Challenge: File-based systems may struggle to handle concurrent access by multiple users, leading to data corruption and inconsistency.
+Need for DBMS: To provide transaction management features, ensuring the atomicity, consistency, isolation, and durability (ACID properties) of transactions in a multi-user environment.
+
+Data Retrieval Efficiency:
+Challenge: Retrieving specific data from file systems can be inefficient, especially as the volume of data grows.
+Need for DBMS: To offer efficient indexing, querying, and retrieval mechanisms, optimizing performance for data access.
+
+Data Independence:
+Challenge: Changes in data structure or format may require modifying multiple programs in file-based systems.
+Need for DBMS: To achieve data independence, separating the physical data storage details from the applications that use the data, making it easier to adapt to changes without affecting application code.

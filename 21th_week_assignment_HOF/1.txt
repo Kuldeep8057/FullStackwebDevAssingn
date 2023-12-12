@@ -1,0 +1,15 @@
+1. What is a Database? Explain with an example on why should we need a database.
+Ans.   A database is a structured collection of data organized for efficient storage, retrieval, and management. 
+        It can store various types of information, such as text, numbers, images, and more, in a systematic way that allows for easy access and manipulation.
+
+        Example:
+        Consider a university system that needs to manage information about students, courses, and grades. In a database for this scenario:
+        The Student table might include fields like student ID, name, address, and contact information.
+        The Course table could have information about courses, including course ID, title, and the instructor.
+        The Grade table would store details about student grades, with fields such as student ID, course ID, and the grade itself.
+        By using a database, the university can efficiently organize and manage this information. Each student's data is stored in a structured manner, making it easy to retrieve and update. Here's why we need a database in this context:
+        Data Integrity: A database ensures that data is accurate and consistent. With proper constraints and relationships, it prevents errors like entering a grade for a nonexistent student or a course.
+        Efficient Retrieval: Databases allow for fast and precise retrieval of information. For example, it's easy to find all courses a particular student is enrolled in or retrieve the grades for a specific course.
+        Concurrency Control: Multiple users can access the database simultaneously without interfering with each other's transactions. This is crucial in scenarios where several users need to update or retrieve information concurrently.
+        Data Security: Databases provide mechanisms for securing data, ensuring that only authorized users can access, modify, or delete specific information. This is vital for protecting sensitive information like grades and personal details.
+        Data Consistency: Changes made to the database are consistent and follow predefined rules. For instance, if a student's address is updated, it will be reflected consistently across all relevant records.

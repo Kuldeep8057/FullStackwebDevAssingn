@@ -1,0 +1,38 @@
+2. Write a short note on File base storage system. Explain the major challenges of a File-based storage system.
+
+Ans. File-Based Storage System:
+A file-based storage system is an older approach to managing and storing data where information is stored in individual files. Each file contains records or data, and there is no centralized control or management system governing these files. 
+This system is often associated with early computer systems and simple data storage needs.
+Major Challenges of File-Based Storage Systems:
+
+Data Redundancy:
+Issue: The same data may be duplicated in multiple files, leading to redundancy.
+Challenge: Redundancy makes it difficult to update data consistently, increases storage requirements, and poses the risk of inconsistencies.
+
+Data Inconsistency:
+Issue: Inconsistencies can arise when the same data is stored in different files, and updates are not synchronized.
+Challenge: Ensuring data consistency across files is challenging, leading to discrepancies and errors in data.
+
+Data Isolation:
+Issue: Each application typically has its own set of files, resulting in data isolation.
+Challenge: Sharing data between applications becomes complex, limiting collaboration and interoperability.
+
+Limited Data Retrieval Capabilities:
+Issue: Retrieving specific data requires searching through multiple files, leading to inefficiency.
+Challenge: Lack of efficient indexing and querying mechanisms makes data retrieval time-consuming and resource-intensive.
+
+Security Issues:
+Issue: Limited access controls and security features in individual files.
+Challenge: Security is compromised, and unauthorized access to sensitive information becomes a concern.
+
+Program-Data Dependence:
+Issue: Programs are often designed to work with specific file formats.
+Challenge: Changing data formats or adding new data fields may require modifying multiple programs, causing maintenance challenges.
+
+Concurrent Access Problems:
+Issue: Simultaneous access by multiple users can lead to conflicts and data corruption.
+Challenge: Ensuring consistency and integrity during concurrent access is difficult without proper mechanisms in place.
+
+Lack of Data Relationships:
+Issue: Establishing and maintaining relationships between different sets of data is cumbersome.
+Challenge: Without a relational structure, understanding connections between pieces of data becomes challenging, impacting data quality and analysis.

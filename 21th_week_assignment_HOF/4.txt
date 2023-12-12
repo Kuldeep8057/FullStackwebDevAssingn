@@ -1,0 +1,22 @@
+4. Explain 5 challenges of file-based storage system which was tackled by DBMS.
+Ans.
+    Data Redundancy:
+
+Challenge in File-Based Systems: Data redundancy is inherent in file-based systems because the same data may be duplicated across multiple files.
+DBMS Solution: DBMS normalizes data by organizing it into tables and establishing relationships between them. This reduces redundancy by storing data only once, minimizing the risk of inconsistent updates.
+
+Data Inconsistency:
+Challenge in File-Based Systems: Inconsistencies arise when the same data is stored in different files, and updates are not synchronized.
+DBMS Solution: DBMS enforces data integrity constraints, such as primary and foreign keys, ensuring that relationships between tables are maintained. This guarantees consistent and accurate data across the entire database.
+
+Data Isolation:
+Challenge in File-Based Systems: Data isolation occurs when individual applications maintain their own sets of files, limiting data sharing between applications.
+DBMS Solution: DBMS provides a centralized repository where data is stored and managed. This enables multiple applications to access and share data, fostering collaboration and eliminating data isolation.
+
+Concurrent Access Problems:
+Challenge in File-Based Systems: Simultaneous access to files by multiple users can lead to conflicts, data corruption, and inconsistent updates.
+DBMS Solution: DBMS implements concurrency control mechanisms, including transaction management and locking mechanisms, to ensure that multiple users can access and modify data concurrently without compromising its consistency.
+
+Data Retrieval Efficiency:
+Challenge in File-Based Systems: Retrieving specific data from file-based systems can be inefficient, especially as the volume of data grows, due to the lack of optimized indexing and querying mechanisms.
+DBMS Solution: DBMS employs indexing, query optimization, and caching strategies to enhance data retrieval efficiency. This allows for fast and precise retrieval of data, even from large datasets, improving overall system performance.
